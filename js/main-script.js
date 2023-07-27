@@ -290,3 +290,6 @@
     "Show 2.5D Buildings",
     "topleft"
   ).addTo(map);
+
+
+  L.simpleMapScreenshoter().addTo(map)
