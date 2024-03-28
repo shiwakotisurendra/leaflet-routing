@@ -121,7 +121,7 @@
     EsriWorldImagery: Esri_WorldImagery,
     EsriWorldTopoMap: Esri_WorldTopoMap,
     EsriNatGeoMap: Esri_NatGeoWorldMap,
-    googleStreets: L.tileLayer(
+    /*googleStreets: L.tileLayer(
       "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
       {
         maxZoom: 20,
@@ -148,7 +148,7 @@
         maxZoom: 20,
         subdomains: ["mt0", "mt1", "mt2", "mt3"],
       }
-    ),
+    ),*/
     StamenWatercolor: L.tileLayer(
       "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}",
       {
